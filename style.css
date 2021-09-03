@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+
+
+h1 {
+  text-align: center;
+}
+
+nav {
+
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: paleturquoise;
+}
+
+figcaption {
+text-align: center;
+font-size: small;
+
+}
+
+#featured-property p {
+  margin: auto;
+text-align: center;
+width: 800px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#details div {
+  text-align: center;
+display: flex;
+position: relative;
+width: 25%;
+background-color: paleturquoise; 
+flex-wrap: wrap;
+float: left;
+overflow: hidden;
+clip: rect(0px,200px,100px,0px); 
+align-items: center; 
+}
